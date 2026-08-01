@@ -1,0 +1,19 @@
+# RightHand Robotics
+
+> RightHand Robotics builds autonomous piece-picking robotic systems (the RightPick platform) that use computer vision, machine learning, and adaptive grasping to pick and place millions of SKUs for order fulfillment across e-commerce, pharmaceutical, apparel, health & beauty, and grocery operations. There is no public web API; integration and deployment documentation is provided to authorized customers and partners through a login-gated partner portal.
+
+## Company
+- [Website](https://righthandrobotics.com): Company site, products, and applications
+- [Partner Documentation Portal](https://www.rhrdocs.com): Login-gated product, deployment, integration, and operator documentation for authorized customers and partners
+- [News & Blog](https://righthandrobotics.com/the-latest): Dated company news, blog, and press posts
+- [Resources](https://righthandrobotics.com/resources): Case studies and white papers
+- [Contact / Request a Demo](https://righthandrobotics.com/contact-us): Sales and support contact
+- [Careers](https://righthandrobotics.com/careers): Open positions
+- [GitHub Organization](https://github.com/RightHandRobotics): Open-source ROS packages and C control libraries for the ReFlex robotic hand hardware
+
+## Security
+- [security.txt](https://righthandrobotics.com/.well-known/security.txt): RFC 9116 security contact and disclosure policy
+
+## Notes
+- No public REST/GraphQL/AsyncAPI, OpenAPI specification, SDK, or MCP server is published.
+- The GitHub organization hosts hardware/robotics libraries (ROS packages, ReFlex Hand C API) rather than web-API client SDKs.

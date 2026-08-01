@@ -1,8 +1,27 @@
 aid: righthand-robotics
 name: RightHand Robotics
-description: 'RightHand Robotics is a company surfaced as a portfolio company of gv, menlo-ventures, softbank-vision-fund
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'RightHand Robotics builds autonomous piece-picking robotic systems for
+  order fulfillment. Its RightPick platform combines computer vision, machine learning,
+  and adaptive grasping hardware to pick and place millions of SKUs at cycle times
+  as fast as three seconds across e-commerce, pharmaceutical, apparel, health & beauty,
+  and grocery operations. The company was surfaced as a portfolio company of GV, Menlo
+  Ventures, and SoftBank Vision Fund. RightHand Robotics does not publish a public
+  web API; integration, deployment, and operator documentation is provided to authorized
+  customers and partners through a login-gated partner portal (rhrdocs.com). The public
+  GitHub organization hosts open-source ROS packages and C control libraries for the
+  earlier ReFlex robotic hand hardware rather than web-API client SDKs.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://rh-robotics.transforms.svdcdn.com/production/assets/img/images/RP4_OG_image.jpg?w=1200&h=630&q=82&auto=format&fit=crop&dm=1706201730&s=247df7b17f0bd05250304b8ef816842b
 url: https://raw.githubusercontent.com/api-evangelist/righthand-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai
+- Robotics
+- Warehouse Automation
+- Order Fulfillment
+- Piece Picking
+- Logistics
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +50,35 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: VulnerabilityDisclosure
+  url: security/righthand-robotics-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/righthand-robotics-domain-security.yml
 - type: Website
   url: http://righthandrobotics.com
+- type: DeveloperPortal
+  name: Partner Documentation Portal (login-gated)
+  url: https://www.rhrdocs.com
+- type: Blog
+  name: The Latest — News & Blog
+  url: https://righthandrobotics.com/the-latest
+- type: Support
+  name: Contact / Request a Demo
+  url: https://righthandrobotics.com/contact-us
+- type: GitHubOrganization
+  name: RightHandRobotics on GitHub
+  url: https://github.com/RightHandRobotics
+- type: SecurityTxt
+  url: well-known/righthand-robotics-security.txt
+- type: WellKnown
+  url: well-known/righthand-robotics-well-known.yml
+- type: Security
+  name: Security policy / disclosure contact
+  url: https://righthandrobotics.com/.well-known/security.txt
+- type: LLMsTxt
+  url: llms/righthand-robotics-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 5
+  pass: local-v1

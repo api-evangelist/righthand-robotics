@@ -1,0 +1,15 @@
+# security.txt file for https://righthandrobotics.com/ - more info: https://securitytxt.org/
+# (required) Contact email address for security issues
+Contact: michael@hellobonfire.com
+
+# (required) Expiration date for the security information herein
+Expiration: 2026-07-20T15:24:52-04:00
+
+# (optional) OpenPGP key:
+Encryption: https://righthandrobotics.com/pgp-key.txt
+
+# (optional) Security policy page:
+Policy: https://righthandrobotics.com/security-policy
+
+# (optional) Security acknowledgements page:
+Acknowledgements: https://righthandrobotics.com/hall-of-fame
